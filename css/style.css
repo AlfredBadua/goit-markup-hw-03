@@ -248,12 +248,10 @@ align-items: center;
     text-transform: uppercase;
 }
 .footer-logo-web{
-  font-family: Raleway;
   color: var(--primary-brand);
 }
   
 .footer-logo-studio{
-  font-family: Raleway;
   color: var(--footer-text, #F4F4FD);
 }
   
