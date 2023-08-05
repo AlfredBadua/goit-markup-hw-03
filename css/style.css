@@ -117,12 +117,15 @@ color: var(--secondary-text)
   
 }
 
-.heading2 {
+.section-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 72px;
+ 
  
 }
 
@@ -133,15 +136,12 @@ color: var(--secondary-text)
 
 .header{
   border-bottom: 1px solid var(--filter-button-border);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 15px;
-
   }
 
  .header-container{
- 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
  }
 
 .header-item{
@@ -231,18 +231,14 @@ align-items: center;
 
 .footer{
   background-color: var(--background-footer);
-  border-top: 1px solid var(--filter-button-border);
-  padding: 100px 15px;
+  padding: 100px 0;
   
   }
 
 .footer-container{
-  
-    }
+  }
     
-
-  
-  .footer-logo{
+.footer-logo{
     color: #F4F4FD;
     font-family: Raleway;
     font-size: 18px;
@@ -250,13 +246,16 @@ align-items: center;
     line-height: 1.167;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-  }
-  .footer-logo-web{
-    color: var(--primary-brand);
-  }
+}
+.footer-logo-web{
+  font-family: Raleway;
+  color: var(--primary-brand);
+}
   
-  .footer-logo-studio{
-  }
+.footer-logo-studio{
+  font-family: Raleway;
+  color: var(--footer-text, #F4F4FD);
+}
   
   .footer-text{
     color: var(--footer-text, #F4F4FD);
@@ -316,7 +315,7 @@ align-items: center;
 /* feature section */
 
 .feature{
-  background-color: var(--background-header);
+  background-color: var(--background-body);
   
     
 }
@@ -368,11 +367,11 @@ gap: 24px;
 
 /* our team */
 
-.our-team{
+.section-grey{
   background-color: var(--cloud);
 }
 
-.our-team-container{
+.section-grey-container{
  
 }
 
@@ -392,7 +391,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
  }
 
  .our-team-item-container{
-padding: 24px 16px;
+padding: 32px 16px;
 }
  
 .our-team-heading3{
@@ -422,7 +421,7 @@ padding: 24px 16px;
   
 }
 .filter-list{
-margin-bottom: 84px;
+margin-bottom: 72px;
 justify-content: center;
 gap: 24px;
 
@@ -436,7 +435,7 @@ gap: 24px;
   color: var(--primary-brand);
   background: var(--filter-button);
   border: 1px solid var(--filter-button-border);
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 4px;
   padding: 12px 24px;
 }
 
